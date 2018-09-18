@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<style type ="text/css">
+p{
+	text-align : center;
+}
+h1{
+  text-align : center;
+} 
+
+  
+</style>
+</head>
+
+
+<body>
+<h1> Registration form </h1>
+<form action="register.php" method="post">
+<p>Name: <input type="text" name="name" required></p>
+
+<p>Username: <input type="text" name="username"required></p>
+
+<p>Password: <input type="password" name="password"required></p>
+
+<p>Confirm Password: <input type="password" name="confirm_password"required></p>
+
+<p>Security question: <select name="security" required>
+                         
+						 <option value="bff_name">What is your bestfriend name?</option>
+                         <option value="fav_place">Which is your favourite holiday destination? </option>
+                         <option value="fav_food">favourite food?</option>
+                         <option value="obsession">What is the one thing that you are obsessed of?</option>
+                                     
+									 </select></p>
+					
+<p> Answer: <input type="text" name ="answer" required> </p>
+
+
+<input type = "submit" name = "submit" value = "submit" style="margin-left: 50%">
+</form>
+
+</body>
+</html>
